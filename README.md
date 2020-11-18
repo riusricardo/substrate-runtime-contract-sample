@@ -73,7 +73,7 @@ cargo +nightly contract generate-metadata
 Start a development chain with:
 
 ```bash
-./target/release/substrate-runtime-contract-sample --dev
+./target/release/node-template --dev
 ```
 
 Detailed logs may be shown by running the node with the following environment variables set: `RUST_LOG=debug RUST_BACKTRACE=1 cargo run -- --dev`.
